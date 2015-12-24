@@ -73,6 +73,7 @@ class ViewController: UIViewController {
     func SetDice(d: UIImageView)
     {
         //This is just a comment
+        
         let i = Int(arc4random_uniform(6)) + 1
         if(i==1)
         {
